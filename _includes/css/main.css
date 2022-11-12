@@ -38,6 +38,7 @@ h6 {
 
 hr.star-light,
 hr.star-primary {
+    background-image:url('../../img/py-removebg-preview.png');
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
