@@ -40,10 +40,10 @@ footer:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/adrianezd/
-    icon: bi bi-linkedin
+    icon: https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg
   - title: github
     url: https://github.com/adrianezd
-    icon: bi bi-github
+    icon: https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg
 
 # Postal address (add as many lines as necessary)
 address:
