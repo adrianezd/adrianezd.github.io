@@ -14,10 +14,12 @@
         <div class="footer-col col-md-4">
           <h3>{{ site.footer.social }}</h3>
           <ul class="list-inline">
+            {% for network in site.social %}
             <li>
-                  <a href="https://www.linkedin.com/in/adrianezd/"><i class="bi bi-linkedin"></i></a>
-                  <a href="https://github.com/adrianezd"><i class="bi bi-github"></i></a>
+              <a href="{{ network.url }}" class="btn-social btn-outline"><i
+                  class="{{ network.title }}"></i></a>
             </li>
+            {% endfor %}
           </ul>
         </div>
         <div class="footer-col col-md-4">
